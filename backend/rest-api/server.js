@@ -7,7 +7,6 @@ const User=require('./model/userSchema');
 connectDB();
 
 const app=express();
-
 app.use(express.json());
 
 app.get('/',(req,res)=>{
